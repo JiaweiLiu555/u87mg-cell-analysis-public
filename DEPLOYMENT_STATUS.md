@@ -35,7 +35,7 @@ MAC REQUIREMENT:
 No. The public app does not depend on a local process or Quick Tunnel.
 
 TEST STATUS:
-The permanent app booted and was exercised through the public embed route. Local validated tests include the prior 15-test suite and 3 imaging checks; release-safety and conservative input-QC tests remain tracked in the repository. Biological validation remains pending independent Dr. Smith data.
+The permanent app booted and was exercised through the public embed route. Local execution passed 21 tests with 1 explicitly skipped optional learned-model smoke test; GitHub Actions passed the same suite on commit d5a30a8. Biological validation remains pending independent Dr. Smith data.
 
 NEXT REQUIRED ACTION:
 Dr. Smith must provide independent raw U87MG microscopy images and trusted reference measurements before biological performance can be estimated.
